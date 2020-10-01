@@ -7,6 +7,7 @@ let package = Package(
     products: [
         .library(
             name: "PSPDFKit",
+            type: .dynamic,
             targets: ["PSPDFKit", "PSPDFKitUI"]),
     ],
     targets: [
